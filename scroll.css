@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0;}
+body{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+} 
+
+section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    
+    color: skyblue;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.btns{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.btns .container{
+    position: relative;
+    top: 0;
+    max-width: 900px;
+    padding: 20px;
+    background-color: transparent;
+    margin: auto;
+    
+}
+
+
+.btn_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #193a40;
+    border: 1px solid #4d7f8c;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #9ad2d9;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+
+
+#home{
+    padding-top: 88px;
+}
+#about{
+    padding-top: 88px;
+}
+#skills{
+    padding-top: 88px;
+}
+#works{
+    padding-top: 88px;
+}
+#contact{
+    padding-top: 88px;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.arrow-up{
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: rgb(33, 112, 231);
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: 3s;
+}
+button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.arrow-up span{
+font-size: 50px;
+
+}
+
+.arrow-up.show{
+    opacity: 1;
+}
